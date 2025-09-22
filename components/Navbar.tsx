@@ -1,11 +1,14 @@
-type Props = {
-    name: string;
-}
+import Link from "next/link";
 
-const Greeting = ({ name }: Props) => {
+const Navbar = () => {
     return (
-        <p className="text-black">Hi, {name}!</p>
+        <nav className="flex gap-4 p-4 border-b">
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/project">Project</Link>
+            <Link href="/contact">Contact</Link>
+        </nav>
     )
 }
 
-export default Greeting;
+export default Navbar;
