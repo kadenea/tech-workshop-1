@@ -4,7 +4,7 @@ const AboutPage = () => {
     return (
         <section>
             <h1>About Page</h1>
-            <Greeting name="Braden" />
+            <Greeting name="Kaden" />
         </section>
     );
 };

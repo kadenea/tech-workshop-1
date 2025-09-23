@@ -8,7 +8,7 @@ export default function Home() {
             </button>
             <Greeting name="KTP" />
             <Greeting name="World" />
-            <Greeting name="Braden" />
+            <Greeting name="Kaden" />
         </section>
     );
 }
